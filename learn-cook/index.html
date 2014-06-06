@@ -1,0 +1,26 @@
+---
+layout: page
+title: Learn and Cook
+---
+
+<div class="place">
+  <h3>Recipes</h3>
+  <ul class="posts">
+  {% for post in site.posts %}
+      {% if post.categories contains 'recipes'%}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+</div>
+
+<div class="place">
+  <h3>Blog Posts</h3>
+  <ul class="posts">
+  {% for post in site.posts %}
+      {% if post.categories contains 'learn' %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+</div>

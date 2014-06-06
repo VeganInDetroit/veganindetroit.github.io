@@ -8,3 +8,7 @@
 .place {
 		@include trailer();
 }
+
+ul {
+  @include trailer(.5);
+}

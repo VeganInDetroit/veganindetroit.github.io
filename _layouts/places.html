@@ -13,32 +13,39 @@ layout: default
 {{ content }}
 
 <h3>Information</h3>
-<ul>
+<ul class="fa-ul">
 	{% if page.hours %}
 		<li>
-			Hours: {{page.hours}}
+			<i class="fa-li fa fa-clock-o"></i>
+			{{page.hours}}
 		</li>
 	{% endif %}
 
 	{% if page.tel %}
 		<li>
+			<i class="fa-li fa fa-phone-square " ></i>
 			<a href="tel:{{page.tel}}">{{page.tel}}</a>
 		</li>
 	{% endif %}
 
 	{% if page.twitter %}
 		<li>
-			<i class="fa fa-twitter">
+			<i class="fa-li fa fa-twitter"></i>
 				<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
-			</i>
 		</li>
 	{% endif %}
 
 	{% if page.instagram %}
 		<li>
-			<i class="fa fa-instagram">
+			<i class="fa-li fa fa-instagram"></i>
 				<a href="https://instagram.com/{{page.instagram}}">@{{page.instagram}}</a>
-			</i>
+		</li>
+	{% endif %}
+
+	{% if page.facebook %}
+		<li>
+			<i class="fa-li fa fa-instagram"></i>
+				<a href="https://instagram.com/{{page.instagram}}">@{{page.instagram}}</a>
 		</li>
 	{% endif %}
 </ul>

@@ -1,4 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Hammersmith+One");
+@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -136,6 +137,11 @@ p > a {
   white-space: nowrap;
 }
 
+/* line 91, ../_sass/partials/_typography.scss */
+.title {
+  margin-bottom: 1.125em;
+}
+
 /* line 1, ../_sass/partials/_navigation.scss */
 .mainNav {
   margin: 1.5em 0;
@@ -198,6 +204,11 @@ p > a {
 /* line 8, ../_sass/partials/_lists.scss */
 .place {
   margin-bottom: 1.5em;
+}
+
+/* line 12, ../_sass/partials/_lists.scss */
+ul {
+  margin-bottom: 0.75em;
 }
 
 /* line 1, ../_sass/partials/_media.scss */
@@ -284,9 +295,10 @@ p > a {
   line-height: 1.58842em;
 }
 
-/* line 12, ../_sass/partials/_font-icons.scss */
-.fa-instagram:before {
-  margin-right: 2px;
+/* line 10, ../_sass/partials/_font-icons.scss */
+.fa-ul {
+  margin-left: 1.55em !important;
+  /* #sorryBoutIt Such is the peril of bootstrap*/
 }
 
 /* line 2, ../_sass/partials/_links.scss */
@@ -309,7 +321,7 @@ a:hover {
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 25, ../_sass/main.scss */
+/* line 26, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;

@@ -1,0 +1,10 @@
+---
+layout: places
+title: Colors
+categories: [restaurants]
+tags: [downtown]
+location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11797.325103736339!2d-83.04814000000002!3d42.33546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79eb5fc0aceda1d2!2sColors+-+Detroit!5e0!3m2!1sen!2sus!4v1402071190323
+website: http://www.colors-detroit.com/
+tel: (313) 496-1212
+hours: "Tuesday to Friday 11am - 9pm | Sunday 10am - 3:30pm | Closed Monday and Saturday"
+---

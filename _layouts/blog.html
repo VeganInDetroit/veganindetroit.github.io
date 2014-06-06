@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="title">
+	<h2>{{ page.title }}</h2>
+
+	{% if page.author %}
+		<h4>by {{ page.author}}</h4>
+	{% endif %}
+</div>
+
+
+
+{{ content }}
+
+{% include disqus.html %}

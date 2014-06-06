@@ -7,7 +7,7 @@ location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1474.244999155032
 website: http://www.mocadetroit.org/cafe.html
 tel: (313) 832-6622
 twitter: TOPSOILatMOCAD
-hours: "Open 11am - 5pm Wednesday to Sunday | open until 8pm on Thursdays and Fridays."
+hours: "Open Wednesday to Sunday 11am - 5pm | open until 8pm on Thursdays and Fridays"
 ---
 
 Topsoil is inside of the MOCAD (Museum of Contemporary Art), and it's presented by Russel Street Deli.
