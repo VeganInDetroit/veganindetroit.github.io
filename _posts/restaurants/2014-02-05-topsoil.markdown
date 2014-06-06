@@ -20,8 +20,7 @@ Their website says they have a full beer and wine menu. as well as coffee and te
 
 Everything is really affordable, and they try to make everything under $7.
 
-<img class="img" src="../../media/images/topsoil/topsoil-square.jpg" alt="">
-Soba noodles with a shitake mushroom broth.  Featuring tofu, scallions and leafy vegetables. 
+<img class="img" src="../media/images/topsoil/topsoil-square.jpg" alt="">
+Soba noodles with a shitake mushroom broth.  Featuring tofu, scallions and leafy vegetables.
 
-<img class="img" src="../../media/images/topsoil/topsoil-kitchen.jpg" alt="">
-
+<img class="img" src="../media/images/topsoil/topsoil-kitchen.jpg" alt="">
