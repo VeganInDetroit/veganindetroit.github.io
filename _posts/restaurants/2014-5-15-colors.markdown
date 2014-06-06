@@ -19,3 +19,5 @@ You can take your non-vegan friends here too, they also have good non-vegan stuf
 
 <img class="img" src="../../media/images/colors/panda-sandwich.jpg" alt="Panda Sandwich">
 "The Panda" - tofu, tofu bacon, spicy aioli
+
+<img class="img" src="../../media/images/colors/colors-space.jpg" alt="Inside of Colors">
