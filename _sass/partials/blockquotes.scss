@@ -1,0 +1,27 @@
+blockquote {
+  background: $background;
+  border-left: 10px solid $accent;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  @include trailer(.5);
+}
+
+blockquote:before {
+  color: $accent;
+  content: open-quote;
+  font-size: ms(10);
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: $accent;
+  content: close-quote;
+  font-size: ms(10);
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+}
+
+blockquote p {
+  display: inline;
+}

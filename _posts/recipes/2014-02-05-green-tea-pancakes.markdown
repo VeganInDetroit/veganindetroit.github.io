@@ -17,3 +17,5 @@ author: Melissa P.
 </ul>
 
 <p>Sliced almonds, shredded ginger and melted honey is awesome with these pancakes!</p>
+
+<img src="../../media/images/green-tea-pancakes/green-tea-pancakes.jpg" alt="Green tea pancakes">

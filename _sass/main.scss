@@ -8,7 +8,9 @@
 
 @import "compass/reset";
 @import "partials/base";
+@import "partials/colors";
 @import "partials/typography";
+@import "partials/links";
 @import "partials/navigation";
 @import "partials/branding";
 @import "partials/footer";
@@ -18,7 +20,10 @@
 @import "partials/layout";
 @import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
 @import "partials/font-icons";
-@import "partials/links";
+@import "partials/blockquotes";
+
+
+
 
 /* -------------------------------------------------------------------------*/
 /* Layout */

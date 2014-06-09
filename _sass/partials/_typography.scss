@@ -78,9 +78,9 @@ p {
 	font-size: ms(0);
 	@include trailer(.5);
 	>a {
-		-webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-		-moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-		box-shadow: inset 0 -3px 0 0 #FFDE8D;
+		-webkit-box-shadow: inset 0 -3px 0 0 $highlight;
+		-moz-box-shadow: inset 0 -3px 0 0 $highlight;
+		box-shadow: inset 0 -3px 0 0 $highlight;
 	}
 }
 

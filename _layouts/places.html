@@ -10,9 +10,6 @@ layout: default
 	<h2>{{ page.title }}</h2>
 {% endif %}
 
-{{ content }}
-
-<h3>Information</h3>
 <ul class="fa-ul">
 	{% if page.hours %}
 		<li>
@@ -28,13 +25,6 @@ layout: default
 		</li>
 	{% endif %}
 
-	{% if page.twitter %}
-		<li>
-			<i class="fa-li fa fa-twitter"></i>
-				<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
-		</li>
-	{% endif %}
-
 	{% if page.instagram %}
 		<li>
 			<i class="fa-li fa fa-instagram"></i>
@@ -44,45 +34,66 @@ layout: default
 
 	{% if page.facebook %}
 		<li>
-			<i class="fa-li fa fa-instagram"></i>
-				<a href="https://instagram.com/{{page.instagram}}">@{{page.instagram}}</a>
+			<i class="fa-li fa fa-facebook-square"></i>
+				<a href="https://facebook.com/{{page.facebook}}">{{page.facebook}}</a>
 		</li>
 	{% endif %}
+
+	{% if page.twitter %}
+		<li>
+			<i class="fa-li fa fa-twitter"></i>
+				<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+		</li>
+	{% endif %}
+
+	{% if page.extra-info %}
+		<li>
+			<i class="fa-li fa fa-info-circle"></i>
+				{{page.extra-info}}
+		</li>
+	{% endif %}
+
+
+
 </ul>
 
 
 {% if page.instagramID %}
 	<div id="instafeed"></div>
 	<script type="text/javascript">
-	    var userFeed = new Instafeed({
-	        get: 'user',
-	        userId: {{page.instagramID}},
-	        accessToken: '449827118.467ede5.8990725bb3864ed0a034d7814902dfa0',
-	        limit: 6,
-	        {% raw %}
-	        	template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
-	        {% endraw %}
-	    });
-	    userFeed.run();
+			var userFeed = new Instafeed({
+					get: 'user',
+					userId: {{page.instagramID}},
+					accessToken: '449827118.467ede5.8990725bb3864ed0a034d7814902dfa0',
+					limit: 6,
+					{% raw %}
+						template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
+					{% endraw %}
+			});
+			userFeed.run();
 	</script>
 
 {% elsif page.instatags %}
 	<div id="instafeed"></div>
 	<script type="text/javascript">
-	    var feed = new Instafeed({
-	        get: 'tagged',
-	        tagName: 'rvmendoza',
-	        clientId: '22152a29d0bf49b7994afaa741f613a5',
-	        limit: 6,
-	        {% raw %}
-	        	template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
-	        {% endraw %}
-	    });
-	    feed.run();
+			var feed = new Instafeed({
+					get: 'tagged',
+					tagName: 'rvmendoza',
+					clientId: '22152a29d0bf49b7994afaa741f613a5',
+					limit: 6,
+					{% raw %}
+						template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
+					{% endraw %}
+			});
+			feed.run();
 	</script>
 
 
 {% endif %}
+
+{{ content }}
+
+
 
 
 

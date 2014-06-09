@@ -127,9 +127,9 @@ p {
 }
 /* line 80, ../_sass/partials/_typography.scss */
 p > a {
-  -webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-  -moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-  box-shadow: inset 0 -3px 0 0 #FFDE8D;
+  -webkit-box-shadow: inset 0 -3px 0 0 #ffde8d;
+  -moz-box-shadow: inset 0 -3px 0 0 #ffde8d;
+  box-shadow: inset 0 -3px 0 0 #ffde8d;
 }
 
 /* line 87, ../_sass/partials/_typography.scss */
@@ -140,6 +140,24 @@ p > a {
 /* line 91, ../_sass/partials/_typography.scss */
 .title {
   margin-bottom: 1.125em;
+}
+
+/* line 2, ../_sass/partials/_links.scss */
+a {
+  color: #4C6B87;
+  text-decoration: none;
+}
+
+/* line 7, ../_sass/partials/_links.scss */
+a:hover {
+  background-color: #E8E8E8;
+  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -webkit-box-shadow: inset 0 -3px 0 0 #ffde8d;
+  -moz-box-shadow: inset 0 -3px 0 0 #ffde8d;
+  box-shadow: inset 0 -3px 0 0 #ffde8d;
 }
 
 /* line 1, ../_sass/partials/_navigation.scss */
@@ -208,6 +226,8 @@ p > a {
 
 /* line 12, ../_sass/partials/_lists.scss */
 ul {
+  list-style: disc;
+  margin: 0 0 0 1em;
   margin-bottom: 0.75em;
 }
 
@@ -299,29 +319,53 @@ ul {
 .fa-ul {
   margin-left: 1.55em !important;
   /* #sorryBoutIt Such is the peril of bootstrap*/
+  background: #ffde8d;
+}
+/* line 14, ../_sass/partials/_font-icons.scss */
+.fa-ul li {
+  padding: 0 0 0 .25em;
 }
 
-/* line 2, ../_sass/partials/_links.scss */
-a {
-  color: #4C6B87;
-  text-decoration: none;
+/* line 19, ../_sass/partials/_font-icons.scss */
+.fa-li {
+  top: 0.34em;
 }
 
-/* line 7, ../_sass/partials/_links.scss */
-a:hover {
-  background-color: #E8E8E8;
-  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  -webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-  -moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
-  box-shadow: inset 0 -3px 0 0 #FFDE8D;
+/* line 1, ../_sass/partials/blockquotes.scss */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #4c6b87;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin-bottom: 0.75em;
+}
+
+/* line 9, ../_sass/partials/blockquotes.scss */
+blockquote:before {
+  color: #4c6b87;
+  content: open-quote;
+  font-size: 75.85185px;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+/* line 17, ../_sass/partials/blockquotes.scss */
+blockquote:after {
+  color: #4c6b87;
+  content: close-quote;
+  font-size: 75.85185px;
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+}
+
+/* line 25, ../_sass/partials/blockquotes.scss */
+blockquote p {
+  display: inline;
 }
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 26, ../_sass/main.scss */
+/* line 31, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;
