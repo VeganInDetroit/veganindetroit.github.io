@@ -13,9 +13,9 @@ extra-info: Space is not huge so call ahead if you're going with a group of 6.
 ---
 
 You know how good of a feeling it is to walk into a restaurant knowing all options are on the table?
-You get that feeling at Detroit Vegan Soul.
+You get that feeling at Detroit Vegan Soul
 
-Highlights off their menu:
+Highlights from their menu:
 <ul>
   <li>Soul Platter - (Mac-n-"cheese", smoked collards, glazed yams, cornbread)</li>
   <li>Southern Fried Tofu Bites</li>
