@@ -4,6 +4,7 @@ title: Topsoil at MOCAD
 categories: [restaurants]
 tags: [midtown]
 location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1474.2449991550325!2d-83.0604621!3d42.3533956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2b908baab25%3A0xb15dd14f756e4508!2sMuseum+of+Contemporary+Art+Detroit!5e0!3m2!1sen!2sus!4v1397508929925
+address: 4454 Woodward Ave
 website: http://www.mocadetroit.org/cafe.html
 tel: (313) 832-6622
 twitter: TOPSOILatMOCAD

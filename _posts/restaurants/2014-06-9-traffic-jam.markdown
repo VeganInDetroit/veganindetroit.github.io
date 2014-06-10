@@ -4,6 +4,7 @@ title: Traffic Jam and Snug
 categories : [restaurants]
 tags: [midtown]
 location: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.5407863587498!2d-83.06577399999999!3d42.352312999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2b0793db895%3A0xa6fd4ce7b6a19456!2sTraffic+Jam+And+Snug!5e0!3m2!1sen!2sus!4v1402342563437
+address: 511 W Canfield St.
 website: http://trafficjamdetroit.com/menus.php
 facebook: pages/Traffic-Jam-Snug/245334125255
 twitter: TrafficJamSnug
